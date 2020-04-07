@@ -1,0 +1,25 @@
+{
+  "productDetails" : [
+  {
+      "id": 1,
+      "meetingRoom": "Novopay1",
+      "description": "I am Novopay1.",
+      "price": "Rs.170",
+      "imageUrl": "https://source.unsplash.com/800x400/?product"
+  },
+  {
+      "id": 2,
+      "name": "Novopay2",
+      "description": "I am Novopay2.",
+      "price": "Rs.302",
+      "imageUrl": "https://source.unsplash.com/800x400/?product"
+  },
+  {
+      "id": 3,
+      "name": "Novopay3",
+      "description": "I am Novopay3.",
+      "price": "Rs.279",
+      "imageUrl": "https://source.unsplash.com/800x400/?product"
+  }
+]
+}
