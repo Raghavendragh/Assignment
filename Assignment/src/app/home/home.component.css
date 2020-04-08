@@ -1,0 +1,10 @@
+h1{
+    margin-left: 500px;
+  }
+
+  .dashboard{
+      color:blue;
+      cursor: pointer;
+      text-decoration: underline;
+      margin-left: 500px;
+  }

@@ -1,0 +1,86 @@
+<!-- <div style = "background-color: lightgray">
+<h1>New Booking</h1>
+<div> 
+    <form [formGroup] = "formdata" (ngSubmit) = "onClickSubmit(formdata.value)"> 
+<label for="name">Name:</label>
+      <input type = "text" class = "fortextbox" name = "name" 
+          placeholder = "name" formControlName = "name" required>    <br/> 
+          <label for="name">Meeting Room</label>
+       <input type = "text" class = "fortextbox" name = "emailid" 
+          placeholder = "emailid" formControlName = "emailid" required> 
+       <br/> 
+       <label for="name">Date:</label>
+       <input type = "date" class = "fortextbox" name = "number" 
+       placeholder = "number" formControlName = "Date" required> 
+    <br/>
+    <label for="name">Time To</label>
+    <input type = "time" class = "fortextbox" name = "number" 
+    placeholder = "number"  required>
+    <label for="name">Time From</label>
+    <input type = "time" class = "fortextbox" name = "number" 
+    placeholder = "number"  required><br/>
+    <br/>
+    <label for="name">Agenda</label>
+    <input type = "text" class = "fortextbox" name = "number" 
+    placeholder = "number" formControlName = "comment" required><br/>
+    
+       <input type = "submit" [disabled] = "!formdata.valid" class = "forsubmit" 
+          value = "Log In"> 
+    </form> 
+ </div>
+ </div>
+ <div class = 'back' (click)="back()">Back</div> -->
+ <a class="newBook" (click)='back()'>back</a>
+ <div class="jumbotron">
+    <h1>Hello, {{loggedIn}}!</h1>
+   <!-- <p class="lead">Your Email {{peoples.email}} & ID {{peoples.id}}</p> -->
+    <p>Please Book your Meeting room Here .</p>
+
+</div>
+ <div class="row">  
+
+    <div class="col-md-6">
+        <label for="room">Room Name:</label>
+        <select class="form-control" (change)="onRoomChange($event.target.value)" [(ngModel)]="selectedVal.name">
+            <option>SELECT ROOMS</option>
+            <option *ngFor="let product of products"  value={{product.name}} >{{product.name}}</option>
+        </select>
+    </div>
+</div>
+<br>
+<!-- <div class="row">
+<div class="col-md-6"> 
+      
+<input type="text" class="form-control pull-right" value="{{displayDate}}"  (focus)="onChangeDate($event.target.value)" id="datepicker" placeholder="MM/DD/YYYY">   
+ 
+</div>
+</div> -->
+
+<div class="col-md-12">
+<label for="name">Date:</label>
+<input type = "date" class = "fortextbox" name = "number" 
+placeholder = "number" [(ngModel)] = "selectedVal.Date" style="margin-left:55px" required> 
+</div>
+<br/>
+<div>
+        <div class="col-md-6">
+<label for="name">Time To:</label>
+<input type = "time" class = "fortextbox" name = "number" 
+placeholder = "number" [(ngModel)] = "selectedVal.timeTo" style="width:80%;margin-left:35px" required></div>
+        <div class="col-md-6">
+<label for="name">Time From:</label>
+<input type = "time" class = "fortextbox" name = "number" 
+placeholder = "number" style="width:80%" [(ngModel)] = "selectedVal.timeFrom"  required></div>
+</div>
+<br/>
+<div>
+        <div class="col-md-6">
+<label for="name">Agenda:</label>
+<input type = "text" class = "fortextbox" name = "number" 
+placeholder = "agenda" [(ngModel)] = "selectedVal.Agenda" style="margin-left:50px" required>
+</div></div>
+<br/>
+<button type="button" (click)=Create()>Create</button>
+
+
+     

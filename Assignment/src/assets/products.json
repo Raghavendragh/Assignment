@@ -1,0 +1,65 @@
+ [
+    {
+        "id": 1,
+        "name": "Room1",
+        "description": "I am Novopay1.",
+        "price": "Rs.170",
+        "imageUrl": "https://source.unsplash.com/800x400/?product"
+    },
+    {
+        "id": 2,
+        "name": "Room2",
+        "description": "I am Novopay2.",
+        "price": "Rs.302",
+        "imageUrl": "https://source.unsplash.com/800x400/?product"
+    },
+    {
+        "id": 3,
+        "name": "Room3",
+        "description": "I am Novopay3.",
+        "price": "Rs.279",
+        "imageUrl": "https://source.unsplash.com/800x400/?product"
+    },
+    {
+        "id": 4,
+        "name": "Room4",
+        "description": "I am Novopay3.",
+        "price": "Rs.279",
+        "imageUrl": "https://source.unsplash.com/800x400/?product"
+    },
+    {
+        "id": 5,
+        "name": "Room5",
+        "description": "I am Novopay3.",
+        "price": "Rs.279",
+        "imageUrl": "https://source.unsplash.com/800x400/?product"
+    },
+    {
+        "id": 6,
+        "name": "Room6",
+        "description": "I am Novopay3.",
+        "price": "Rs.279",
+        "imageUrl": "https://source.unsplash.com/800x400/?product"
+    },
+    {
+        "id": 7,
+        "name": "Room7",
+        "description": "I am Novopay3.",
+        "price": "Rs.279",
+        "imageUrl": "https://source.unsplash.com/800x400/?product"
+    },
+    {
+        "id": 8,
+        "name": "Room8",
+        "description": "I am Novopay3.",
+        "price": "Rs.279",
+        "imageUrl": "https://source.unsplash.com/800x400/?product"
+    },
+    {
+        "id": 9,
+        "name": "Room9",
+        "description": "I am Novopay3.",
+        "price": "Rs.279",
+        "imageUrl": "https://source.unsplash.com/800x400/?product"
+    }
+]

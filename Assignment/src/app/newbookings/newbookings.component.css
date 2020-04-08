@@ -1,0 +1,48 @@
+
+form{
+    margin-left: 500px;
+    margin-top: 100px
+}
+.fortextbox{
+    margin:20px;
+    padding:10px;
+    width: 45%;
+    height: 40px;
+}
+.forsubmit{
+    background-color:green;
+    color:black;
+    width: 200px;
+    height: 30px;
+}
+
+#commentId{
+padding-right: 80px;
+}
+
+.back{
+    text-decoration: underline;
+    cursor: pointer
+}
+
+h1{
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+.newBook{
+    color:blue;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-left: 500px;
+}
+
+button{
+margin-left: 500px;
+    background-color: lightsteelblue;
+}
+
+p{
+    margin-left: 500px;
+}
+

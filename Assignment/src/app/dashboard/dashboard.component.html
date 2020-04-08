@@ -1,0 +1,21 @@
+<a class="dashboard" (click)='back()'>back</a>
+<div class="jumbotron">
+    <h1>Meeting Rooms Booked</h1>
+   <!-- <p class="lead">Your Email {{peoples.email}} & ID {{peoples.id}}</p> -->
+</div>
+<h1>Room Booked By:{{loginUser}}</h1> 
+<div class="container">
+        <!-- <h2>Card Header and Footer</h2> -->
+        <div class="card">
+          <div class="col-md-3"><label>RoomBooked:</label>{{newRoom.name}}</div>
+          <div class="col-md-3"><label>BookedDate:</label>{{newRoom.Date}}</div>
+          <div class="col-md-3"><label>TimeFrom:</label>{{newRoom.timeFrom}}</div> 
+          <div class="col-md-3"><label>TimeTo:</label>{{newRoom.timeTo}}</div>
+          <div class="col-md-3"><label>Agenda:</label>{{newRoom.timeTo}}</div>
+        </div>
+      </div>
+<!-- <div >
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3 col-md-6 col-lg-4" style="margin-bottom: 50px" *ngFor="let product of products"><img src = "assets/meeting2.jpg"/>{{product.name}}</div>
+</div> -->
