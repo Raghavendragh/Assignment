@@ -65,11 +65,18 @@
   }
 
   #logout{
-    margin-left: 500px;
+    margin-left: 400px;
   }
 
   #book{
-    margin-left: 300px; 
+    margin-left: 200px; 
+  }
+
+  #LoggedInUser{
+    margin-left: 200px;
+    font-family: cursive;
+    margin-top: 10px;
+    color: white;
   }
 
   

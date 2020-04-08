@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import{ Router } from '@angular/router'
+import{MyDetailsService} from '../my-details.service';
 
 @Component({
   selector: 'app-header',
@@ -7,10 +8,11 @@ import{ Router } from '@angular/router'
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-userName = 'Novopay';
-  constructor(public router:Router) { }
+loggedIn:any;
+  constructor(public router:Router,private myDetailsService: MyDetailsService) { }
 
   ngOnInit() {
+    this.loggedIn =  this.myDetailsService.getLogin();  
   }
 
   openNav() {
